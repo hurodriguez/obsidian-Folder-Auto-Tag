@@ -8,7 +8,7 @@ Para instalar el plugin, siga estos pasos:
 
 1. Descargue el archivo `main.js` y el archivo `manifest.json` del último lanzamiento en GitHub.
 2. Copie los archivos descargados en la carpeta `.obsidian/plugins/folder-as-tag-plugin/` dentro de su bóveda de Obsidian.
-3. Abra Obsidian y vaya a **Configuración** > **Complementos** y habilite el plugin **FolderAsTag**.
+3. Abra Obsidian y vaya a **Configuración** > **Complementos** y habilite el plugin **Auto Tag Plugin**.
 
 ## Compilación
 
@@ -19,7 +19,7 @@ Si desea compilar el plugin desde el código fuente, siga estos pasos:
 3. Ejecute el comando `npm install` para instalar las dependencias.
 4. Ejecute el comando `npm run dev` para compilar el plugin.
 5. Copie los archivos `main.js` y `manifest.json` generados en la carpeta `.obsidian/plugins/folder-as-tag-plugin/` dentro de su bóveda de Obsidian.
-6. Abra Obsidian y vaya a **Configuración** > **Complementos** y habilite el plugin **FolderAsTag**.
+6. Abra Obsidian y vaya a **Configuración** > **Complementos** y habilite el plugin **Auto Tag Plugin**.
 
 ## Uso
 
