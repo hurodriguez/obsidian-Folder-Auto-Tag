@@ -9,13 +9,13 @@ export default class FolderAsTagPlugin extends Plugin {
                     if (metadataCache && !metadataCache.tags) {
                         const folderPath = file.path.split('/');
                         let tags = [];
-                        for (let i = folderPath.length - 2; i >= 0; i--) {
-                          const tag = `#${folderPath.slice(0, i + 1).join('/')}`;
-                        }
+                        // Agrega solo la etiqueta más profunda
+                        const tag = `#${folderPath.slice(0, folderPath.length - 1).join('/')}`;
+                        tags.push(tag);
                         const fileContent = await this.app.vault.read(file);
                         await this.app.vault.modify(file, `${tags.join(' ')}\n${fileContent}`);
                     }
-                }
+                } 
             })
         );
     } 
