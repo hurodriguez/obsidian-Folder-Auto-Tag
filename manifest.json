@@ -1,11 +1,8 @@
 {
-  "id": "obsidian-auto-tag-nested-directories",
-  "name": "Auto Tag Nested Directories",
-  "version": "0.1.0",
-  "minAppVersion": "0.15.0",
-  "description": "Obisidian plugin which will automatically add tags to new files based on their directory structure",
-  "author": "Kadian",
-  "authorUrl": "Kadian",
-  "fundingUrl": "",
-  "isDesktopOnly": false
+  "id": "folder-tag",
+  "name": "Auto Tag",
+  "version": "1.0.0",
+  "author": "Hugo Rodriguez",
+  "description": "A plugin that inserts the name of the folder where the file is located as a tag.",
+  "main": "main.ts"
 }
