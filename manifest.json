@@ -1,6 +1,6 @@
 {
   "id": "folder-tag",
-  "name": "Auto Tag",
+  "name": "Folder Auto Tag",
   "version": "1.0.0",
   "author": "Hugo Rodriguez",
   "description": "A plugin that inserts the name of the folder where the file is located as a tag.",
