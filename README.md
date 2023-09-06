@@ -1,6 +1,6 @@
 # Folder Auto Tag Plugin para Obsidian
 
-Este plugin para Obsidian agrega automáticamente etiquetas a las notas de Markdown basadas en la estructura de carpetas. Por ejemplo, si una nota se encuentra en la carpeta `Uno/Hijo/nieto`, el plugin agregará la etiqueta `#Uno/Hijo/nieto` al principio del contenido de la nota.
+Este plugin para Obsidian agrega automáticamente etiquetas a las notas de Markdown basadas en la estructura de carpetas. Por ejemplo, si una nota se encuentra en la carpeta `Padre/Hijo/nieto`, el plugin agregará la etiqueta `#Padre/Hijo/nieto` al principio del contenido de la nota.
 
 ## Instalación
 
